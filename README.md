@@ -23,7 +23,7 @@ entry:
 ```c
 struct entry {
   uint8_t msg_len;
-  option opt; // 0 - continue; 1 - ask (y or n)
+  enum opt; // 0 - continue; 1 - ask (y or n)
   char msg[msg_len];
 };
 ```
