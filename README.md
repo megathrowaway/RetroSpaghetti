@@ -1,6 +1,8 @@
 # RetroSpaghetti
 executes spaghetti format ROMs and displays recipe.
 
+`Usage: spaghetti <path_to_rom>`
+
 # compiling and running
 just use gcc, simple as can be.
 
